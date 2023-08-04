@@ -1,0 +1,1702 @@
+[
+  {
+    "table": [
+      {
+        "id": "01c68194-1279-4cf0-a15f-630d434f5b21",
+        "number": 98278,
+        "created_at": "2023-08-03T05:48:26.652Z",
+        "updated_at": "2023-08-03T15:28:16.739Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2a36d61b-5809-41d1-926e-044d75c4f581",
+        "number": 76165,
+        "created_at": "2023-08-03T18:33:31.068Z",
+        "updated_at": "2023-08-03T06:25:51.922Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ae341944-42fb-4bb4-865b-4bba4483b22b",
+        "number": 34711,
+        "created_at": "2023-08-03T10:36:01.173Z",
+        "updated_at": "2023-08-04T01:42:29.163Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ffe140f6-8a66-4bd7-acae-40a3b6148063",
+        "number": 48218,
+        "created_at": "2023-08-03T13:59:44.455Z",
+        "updated_at": "2023-08-03T13:41:59.891Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a845ed1b-2b72-4f02-b013-562c091b7590",
+        "number": 62701,
+        "created_at": "2023-08-03T08:22:09.772Z",
+        "updated_at": "2023-08-03T13:02:28.464Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "ac3737f5-4e46-4d7e-a7f8-d9afbc955ebe",
+        "date": "2023-08-03T21:08:57.771Z",
+        "time": "2023-08-04T02:27:45.527Z",
+        "created_at": "2023-08-04T03:15:16.616Z",
+        "updated_at": "2023-08-03T05:17:09.831Z",
+        "table_id": "ae341944-42fb-4bb4-865b-4bba4483b22b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f258616-87e9-43fa-ae4a-09f86dd6a1b1",
+        "date": "2023-08-03T23:30:24.100Z",
+        "time": "2023-08-03T17:07:10.744Z",
+        "created_at": "2023-08-03T17:35:28.315Z",
+        "updated_at": "2023-08-03T23:16:28.226Z",
+        "table_id": "01c68194-1279-4cf0-a15f-630d434f5b21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e8f034b-1ed9-451e-a25b-f0a15ccac091",
+        "date": "2023-08-03T09:07:05.472Z",
+        "time": "2023-08-03T22:47:52.955Z",
+        "created_at": "2023-08-03T15:27:04.346Z",
+        "updated_at": "2023-08-04T03:10:47.965Z",
+        "table_id": "01c68194-1279-4cf0-a15f-630d434f5b21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "806b70dc-5c9d-49ad-9112-5b0de5ecd9e4",
+        "date": "2023-08-03T11:16:36.992Z",
+        "time": "2023-08-04T03:58:25.796Z",
+        "created_at": "2023-08-04T01:33:42.113Z",
+        "updated_at": "2023-08-03T20:41:24.031Z",
+        "table_id": "01c68194-1279-4cf0-a15f-630d434f5b21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8a499e9-7eff-4ccb-b0be-32ca0b22825b",
+        "date": "2023-08-03T07:25:49.356Z",
+        "time": "2023-08-03T07:05:21.297Z",
+        "created_at": "2023-08-03T14:53:53.861Z",
+        "updated_at": "2023-08-03T08:05:09.631Z",
+        "table_id": "ffe140f6-8a66-4bd7-acae-40a3b6148063",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "365160e8-d1bc-4855-8e8b-df8473d80ac5",
+        "name": "Appetizers",
+        "price": 95295,
+        "created_at": "2023-08-03T18:34:20.336Z",
+        "updated_at": "2023-08-03T11:58:44.981Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "531b798a-6093-4f8c-af6d-4819b3a657bb",
+        "name": "Main Courses",
+        "price": 38313,
+        "created_at": "2023-08-03T20:20:12.607Z",
+        "updated_at": "2023-08-03T11:50:22.071Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4ea9db14-d3b1-4c17-a7cf-c55cc680ae30",
+        "name": "Desserts",
+        "price": 93442,
+        "created_at": "2023-08-03T18:49:00.003Z",
+        "updated_at": "2023-08-04T02:00:50.607Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3810e5a0-57a6-461a-be22-0333e57cd4ea",
+        "name": "Beverages",
+        "price": 5148,
+        "created_at": "2023-08-03T16:59:30.143Z",
+        "updated_at": "2023-08-03T14:55:36.842Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2e42db3e-0dad-4d7b-ae6d-37676a6294b3",
+        "name": "Specials",
+        "price": 25788,
+        "created_at": "2023-08-03T19:16:47.834Z",
+        "updated_at": "2023-08-03T08:21:08.091Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "2992c018-e224-44a0-9e70-b74f35bfa82c",
+        "created_at": "2023-08-03T08:12:58.014Z",
+        "updated_at": "2023-08-04T03:15:08.507Z",
+        "vegetables": "Carrots",
+        "total_amount": "$10.99",
+        "date": "2023-08-03T23:13:05.444Z"
+      },
+      {
+        "id": "6962ec13-016a-4442-bf5a-8a2db5e83efe",
+        "created_at": "2023-08-03T08:20:28.375Z",
+        "updated_at": "2023-08-03T18:35:37.051Z",
+        "vegetables": "Broccoli",
+        "total_amount": "$15.50",
+        "date": "2023-08-03T13:46:20.223Z"
+      },
+      {
+        "id": "82131ce8-78af-459a-9eeb-03755f05151c",
+        "created_at": "2023-08-03T14:18:02.219Z",
+        "updated_at": "2023-08-03T08:28:49.395Z",
+        "vegetables": "Spinach",
+        "total_amount": "$8.75",
+        "date": "2023-08-03T15:25:34.989Z"
+      },
+      {
+        "id": "d6e597a9-e837-4ea4-bb57-21c9652822ea",
+        "created_at": "2023-08-03T08:57:09.954Z",
+        "updated_at": "2023-08-03T11:46:23.247Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "$12.25",
+        "date": "2023-08-03T06:23:49.475Z"
+      },
+      {
+        "id": "9d8ddca3-532f-4121-bfb6-15972f0a3c75",
+        "created_at": "2023-08-03T14:46:10.968Z",
+        "updated_at": "2023-08-03T14:07:02.794Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "$9.99",
+        "date": "2023-08-03T15:59:22.076Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "0be34e30-5b4e-4a56-a6e9-9b7c3c33883a",
+        "number": 41917,
+        "created_at": "2023-08-03T11:13:04.450Z",
+        "updated_at": "2023-08-03T06:23:24.162Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "328da41f-e66e-4c06-8a05-39137bb616c4",
+        "number": 9415,
+        "created_at": "2023-08-03T19:02:22.455Z",
+        "updated_at": "2023-08-03T05:24:47.447Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1672911d-d766-4977-90d2-5d014c1301e5",
+        "number": 1880,
+        "created_at": "2023-08-04T00:09:02.306Z",
+        "updated_at": "2023-08-03T06:23:13.704Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a1900712-6cc2-4105-b8c6-ca2912d44fa8",
+        "number": 30580,
+        "created_at": "2023-08-03T16:45:38.743Z",
+        "updated_at": "2023-08-03T06:43:30.932Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9c1f30ff-1037-4764-9f5b-de9a2400c548",
+        "number": 1270,
+        "created_at": "2023-08-04T03:55:10.607Z",
+        "updated_at": "2023-08-04T02:41:02.354Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "4bc78b04-8441-415e-8035-6719304dd449",
+        "date": "2023-08-03T19:38:58.583Z",
+        "time": "2023-08-03T16:30:07.004Z",
+        "created_at": "2023-08-03T12:35:31.116Z",
+        "updated_at": "2023-08-04T01:52:57.591Z",
+        "table_id": "1672911d-d766-4977-90d2-5d014c1301e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24e21e29-533c-4723-bfb4-5dd93aeacc22",
+        "date": "2023-08-03T16:02:41.674Z",
+        "time": "2023-08-04T00:47:04.934Z",
+        "created_at": "2023-08-03T08:54:28.034Z",
+        "updated_at": "2023-08-03T14:24:58.765Z",
+        "table_id": "a1900712-6cc2-4105-b8c6-ca2912d44fa8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f454e41b-bd40-4334-afe0-68f2aeb8d7b6",
+        "date": "2023-08-03T22:24:05.465Z",
+        "time": "2023-08-03T10:27:30.630Z",
+        "created_at": "2023-08-03T19:21:54.157Z",
+        "updated_at": "2023-08-03T18:51:57.529Z",
+        "table_id": "9c1f30ff-1037-4764-9f5b-de9a2400c548",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac463c3-1f62-492b-ad4b-b8c412fa95bc",
+        "date": "2023-08-03T05:53:16.002Z",
+        "time": "2023-08-03T16:06:56.350Z",
+        "created_at": "2023-08-03T09:53:35.924Z",
+        "updated_at": "2023-08-03T17:54:15.590Z",
+        "table_id": "9c1f30ff-1037-4764-9f5b-de9a2400c548",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c08a015c-44ef-4d30-be97-dd6691a00636",
+        "date": "2023-08-03T15:14:44.044Z",
+        "time": "2023-08-04T04:21:09.913Z",
+        "created_at": "2023-08-03T07:28:39.506Z",
+        "updated_at": "2023-08-03T09:15:37.313Z",
+        "table_id": "a1900712-6cc2-4105-b8c6-ca2912d44fa8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "06726d89-42d1-45c1-a866-e1f4a4de9aed",
+        "name": "Appetizers",
+        "price": 14472,
+        "created_at": "2023-08-04T00:51:37.235Z",
+        "updated_at": "2023-08-04T02:19:19.955Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "98557f9b-52b3-481b-b89d-cd293b4c4859",
+        "name": "Main Courses",
+        "price": 86676,
+        "created_at": "2023-08-04T00:17:37.313Z",
+        "updated_at": "2023-08-03T17:08:03.665Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ff493b17-66e9-4ed3-b87f-45e80c6bbcdf",
+        "name": "Desserts",
+        "price": 48607,
+        "created_at": "2023-08-03T06:01:19.303Z",
+        "updated_at": "2023-08-04T01:02:57.092Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6d418f1d-c9f7-4429-a6a2-4ff0a5e7b2f4",
+        "name": "Beverages",
+        "price": 9601,
+        "created_at": "2023-08-03T21:26:07.658Z",
+        "updated_at": "2023-08-04T00:22:54.984Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e6df42ad-d86d-4f53-9620-fa88cec9e323",
+        "name": "Specials",
+        "price": 67691,
+        "created_at": "2023-08-03T18:37:46.618Z",
+        "updated_at": "2023-08-03T12:14:26.301Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "7bfbab4d-8b64-4b8b-bc85-e505e14eacb4",
+        "created_at": "2023-08-03T11:16:16.325Z",
+        "updated_at": "2023-08-03T15:32:32.733Z",
+        "vegetables": "Carrots",
+        "total_amount": "10 kg",
+        "date": "2023-08-03T10:09:04.757Z"
+      },
+      {
+        "id": "de92cc3f-b384-4476-a607-5da37c516a7d",
+        "created_at": "2023-08-04T00:03:17.670Z",
+        "updated_at": "2023-08-04T02:58:38.353Z",
+        "vegetables": "Broccoli",
+        "total_amount": "5 kg",
+        "date": "2023-08-03T11:06:19.382Z"
+      },
+      {
+        "id": "4b952109-0898-423f-b523-d4a3e2f20bcc",
+        "created_at": "2023-08-03T10:36:40.789Z",
+        "updated_at": "2023-08-03T19:18:02.743Z",
+        "vegetables": "Spinach",
+        "total_amount": "8 kg",
+        "date": "2023-08-03T05:29:51.754Z"
+      },
+      {
+        "id": "fe1995d9-679b-4eec-95d5-fb1c99fc15d5",
+        "created_at": "2023-08-03T20:55:10.285Z",
+        "updated_at": "2023-08-03T07:26:45.871Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "12 kg",
+        "date": "2023-08-03T18:27:33.751Z"
+      },
+      {
+        "id": "5a41c184-39e0-42c2-995d-06784b3e0337",
+        "created_at": "2023-08-04T04:01:34.634Z",
+        "updated_at": "2023-08-03T11:40:04.557Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "6 kg",
+        "date": "2023-08-03T23:40:58.951Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "239f119c-277b-41e9-abfd-ae0d9639539f",
+        "number": 20424,
+        "created_at": "2023-08-03T15:50:14.109Z",
+        "updated_at": "2023-08-03T12:55:13.218Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0b7d1794-4b64-4e60-9e14-7f72361c2c27",
+        "number": 88722,
+        "created_at": "2023-08-03T11:13:57.547Z",
+        "updated_at": "2023-08-03T18:34:55.081Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "db513f4f-0ef5-4743-ab81-34cf1d99b257",
+        "number": 76957,
+        "created_at": "2023-08-03T05:15:34.393Z",
+        "updated_at": "2023-08-03T19:22:28.275Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2d8f61fc-fad1-4a3f-99a6-45823174a554",
+        "number": 77031,
+        "created_at": "2023-08-03T07:28:31.640Z",
+        "updated_at": "2023-08-03T11:23:45.855Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "967975df-fd01-4a03-99ab-4e6f837aec09",
+        "number": 45396,
+        "created_at": "2023-08-03T15:08:34.037Z",
+        "updated_at": "2023-08-03T22:36:38.049Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2346615c-bc78-48e7-9890-970ca4953316",
+        "date": "2023-08-03T22:21:14.085Z",
+        "time": "2023-08-03T12:15:15.574Z",
+        "created_at": "2023-08-03T21:32:13.846Z",
+        "updated_at": "2023-08-03T06:32:23.663Z",
+        "table_id": "967975df-fd01-4a03-99ab-4e6f837aec09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65e05c7a-7324-44b6-8962-801b4eb3f82d",
+        "date": "2023-08-03T09:49:39.708Z",
+        "time": "2023-08-03T13:51:42.451Z",
+        "created_at": "2023-08-03T22:58:02.938Z",
+        "updated_at": "2023-08-03T14:01:46.200Z",
+        "table_id": "967975df-fd01-4a03-99ab-4e6f837aec09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76f7275c-9e03-4b21-8230-7782d9837259",
+        "date": "2023-08-04T04:22:35.883Z",
+        "time": "2023-08-03T14:12:54.313Z",
+        "created_at": "2023-08-03T12:59:43.857Z",
+        "updated_at": "2023-08-03T20:16:09.950Z",
+        "table_id": "db513f4f-0ef5-4743-ab81-34cf1d99b257",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d003c85-0209-44d7-b517-afba8a6b73e4",
+        "date": "2023-08-03T14:18:21.365Z",
+        "time": "2023-08-03T13:28:34.992Z",
+        "created_at": "2023-08-03T06:40:41.677Z",
+        "updated_at": "2023-08-03T08:08:20.970Z",
+        "table_id": "0b7d1794-4b64-4e60-9e14-7f72361c2c27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d4c3026-8cdd-4dcf-8f53-6eb4ccbd811a",
+        "date": "2023-08-04T02:16:48.317Z",
+        "time": "2023-08-03T13:07:48.335Z",
+        "created_at": "2023-08-03T22:28:29.199Z",
+        "updated_at": "2023-08-03T10:13:49.429Z",
+        "table_id": "db513f4f-0ef5-4743-ab81-34cf1d99b257",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "fd3d476b-c4e2-4b23-aff4-b382ea726768",
+        "name": "Appetizers",
+        "price": 45983,
+        "created_at": "2023-08-03T07:55:30.158Z",
+        "updated_at": "2023-08-03T07:46:39.712Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "79449731-3763-4bd8-adb7-c817b97097c5",
+        "name": "Main Courses",
+        "price": 71105,
+        "created_at": "2023-08-04T04:25:40.450Z",
+        "updated_at": "2023-08-04T00:51:06.711Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8feed112-63ff-4f2e-9c29-881ba76e92ea",
+        "name": "Desserts",
+        "price": 67286,
+        "created_at": "2023-08-03T17:12:06.577Z",
+        "updated_at": "2023-08-03T20:49:00.750Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2e2444d4-5fb4-41cc-b18b-b3f49d5eb13d",
+        "name": "Beverages",
+        "price": 24776,
+        "created_at": "2023-08-03T15:46:10.668Z",
+        "updated_at": "2023-08-04T00:24:42.024Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b96e076f-fe14-422a-b78f-3012e38df594",
+        "name": "Specials",
+        "price": 27330,
+        "created_at": "2023-08-04T02:02:14.038Z",
+        "updated_at": "2023-08-04T03:04:45.319Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "554054ee-6a54-40de-bcd1-88db882ce035",
+        "created_at": "2023-08-04T00:09:17.802Z",
+        "updated_at": "2023-08-03T05:33:42.063Z",
+        "vegetables": "Carrots",
+        "total_amount": "10 kg",
+        "date": "2023-08-03T08:15:19.566Z"
+      },
+      {
+        "id": "eaff492c-54ad-49e1-9a53-2f2d64395e40",
+        "created_at": "2023-08-04T02:48:42.264Z",
+        "updated_at": "2023-08-03T20:31:56.851Z",
+        "vegetables": "Broccoli",
+        "total_amount": "5 kg",
+        "date": "2023-08-03T11:29:15.080Z"
+      },
+      {
+        "id": "70f92924-d573-4e09-8d9b-30ec91d58bd3",
+        "created_at": "2023-08-03T15:04:41.542Z",
+        "updated_at": "2023-08-03T13:44:51.504Z",
+        "vegetables": "Spinach",
+        "total_amount": "8 kg",
+        "date": "2023-08-03T12:24:04.488Z"
+      },
+      {
+        "id": "d1cf4241-4366-4258-b167-6b926acc3de4",
+        "created_at": "2023-08-03T11:36:23.970Z",
+        "updated_at": "2023-08-03T09:07:01.947Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "12 kg",
+        "date": "2023-08-04T02:20:55.958Z"
+      },
+      {
+        "id": "3ee541c6-6fcd-4b5b-859d-f3d7a1864b4f",
+        "created_at": "2023-08-03T09:35:05.993Z",
+        "updated_at": "2023-08-03T07:33:56.596Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "6 kg",
+        "date": "2023-08-03T06:06:43.800Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "f22962fa-5ab6-4218-a10e-4f4be36939c4",
+        "number": 11647,
+        "created_at": "2023-08-04T02:26:32.857Z",
+        "updated_at": "2023-08-03T12:51:16.606Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1f1400a7-de98-44f1-bc9e-7aab23241081",
+        "number": 85898,
+        "created_at": "2023-08-03T09:27:41.362Z",
+        "updated_at": "2023-08-03T07:51:45.607Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a772c1c7-b9e0-41d6-94fb-2fc3ef5c81d1",
+        "number": 57771,
+        "created_at": "2023-08-03T20:47:50.040Z",
+        "updated_at": "2023-08-03T08:14:34.798Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8dd61cb7-9558-4f91-af5d-b70422017943",
+        "number": 88880,
+        "created_at": "2023-08-03T17:37:27.198Z",
+        "updated_at": "2023-08-03T11:50:51.051Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4737efd0-b561-45be-b149-f3ccd9224967",
+        "number": 66624,
+        "created_at": "2023-08-03T20:13:10.756Z",
+        "updated_at": "2023-08-03T21:58:18.100Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "09523c2a-21d7-4122-b427-0acb557fe08e",
+        "date": "2023-08-03T22:00:32.549Z",
+        "time": "2023-08-03T16:49:36.271Z",
+        "created_at": "2023-08-03T09:35:25.386Z",
+        "updated_at": "2023-08-03T10:19:57.592Z",
+        "table_id": "1f1400a7-de98-44f1-bc9e-7aab23241081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53532e53-5206-4bb4-81ce-722436b0a654",
+        "date": "2023-08-03T17:57:53.674Z",
+        "time": "2023-08-03T22:14:49.516Z",
+        "created_at": "2023-08-03T17:37:27.700Z",
+        "updated_at": "2023-08-03T13:58:25.087Z",
+        "table_id": "f22962fa-5ab6-4218-a10e-4f4be36939c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "638cc17d-865b-47f7-874f-6514e068c665",
+        "date": "2023-08-03T10:16:32.464Z",
+        "time": "2023-08-03T09:06:06.222Z",
+        "created_at": "2023-08-03T11:24:20.725Z",
+        "updated_at": "2023-08-03T09:53:32.594Z",
+        "table_id": "1f1400a7-de98-44f1-bc9e-7aab23241081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b23c70d0-b50b-47e3-b1bb-e9ac28b16966",
+        "date": "2023-08-03T06:57:24.276Z",
+        "time": "2023-08-03T22:36:39.286Z",
+        "created_at": "2023-08-04T00:08:08.015Z",
+        "updated_at": "2023-08-03T06:41:27.948Z",
+        "table_id": "a772c1c7-b9e0-41d6-94fb-2fc3ef5c81d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee9d8b22-0282-4b85-abbc-e6cfa7d69681",
+        "date": "2023-08-03T16:58:58.877Z",
+        "time": "2023-08-03T16:39:25.526Z",
+        "created_at": "2023-08-04T03:23:47.846Z",
+        "updated_at": "2023-08-03T18:12:34.543Z",
+        "table_id": "8dd61cb7-9558-4f91-af5d-b70422017943",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "ba7cf109-4aad-4c3c-8ca7-0453cd0fc96e",
+        "name": "Appetizers",
+        "price": 17182,
+        "created_at": "2023-08-03T08:30:24.168Z",
+        "updated_at": "2023-08-03T06:31:59.799Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "87879024-1141-4bd5-9fcd-abd7ae3640ad",
+        "name": "Main Courses",
+        "price": 78850,
+        "created_at": "2023-08-03T21:56:40.548Z",
+        "updated_at": "2023-08-03T23:17:07.717Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "616df9db-e15f-4a56-b6cc-fc3e2ee809d6",
+        "name": "Desserts",
+        "price": 26949,
+        "created_at": "2023-08-03T10:32:25.934Z",
+        "updated_at": "2023-08-03T20:04:42.521Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e5b77335-ee31-47e4-80b0-84946f52fd4d",
+        "name": "Beverages",
+        "price": 74550,
+        "created_at": "2023-08-03T23:05:58.184Z",
+        "updated_at": "2023-08-03T18:45:51.054Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "36563178-de46-4793-9050-0e36fe117b60",
+        "name": "Specials",
+        "price": 49680,
+        "created_at": "2023-08-03T09:36:59.978Z",
+        "updated_at": "2023-08-03T23:56:29.681Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "cfd026e1-5d8a-44e6-a923-78391dfaefb2",
+        "created_at": "2023-08-03T06:04:32.300Z",
+        "updated_at": "2023-08-03T18:04:50.015Z",
+        "vegetables": "Carrots",
+        "total_amount": "10 kg",
+        "date": "2023-08-04T00:51:40.660Z"
+      },
+      {
+        "id": "c523b26e-39f0-4bf6-9ba1-28caae920bb0",
+        "created_at": "2023-08-03T14:09:48.536Z",
+        "updated_at": "2023-08-03T18:31:10.051Z",
+        "vegetables": "Broccoli",
+        "total_amount": "5 kg",
+        "date": "2023-08-03T18:58:12.562Z"
+      },
+      {
+        "id": "15e11615-9631-4774-a814-a7c3f0386c3c",
+        "created_at": "2023-08-03T12:58:04.911Z",
+        "updated_at": "2023-08-04T01:32:18.475Z",
+        "vegetables": "Spinach",
+        "total_amount": "8 kg",
+        "date": "2023-08-03T09:40:03.813Z"
+      },
+      {
+        "id": "1c8fb700-e9f1-4b65-bc26-150b6663eb77",
+        "created_at": "2023-08-03T06:39:40.519Z",
+        "updated_at": "2023-08-04T03:35:04.030Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "12 kg",
+        "date": "2023-08-03T13:03:08.416Z"
+      },
+      {
+        "id": "8371f711-e990-4d94-9c56-1bc7c3cfbea0",
+        "created_at": "2023-08-04T02:35:18.290Z",
+        "updated_at": "2023-08-03T18:28:28.523Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "6 kg",
+        "date": "2023-08-03T23:29:37.310Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "c752b887-6d3e-4a72-8bd2-c7af7f825014",
+        "number": 10543,
+        "created_at": "2023-08-03T17:06:50.237Z",
+        "updated_at": "2023-08-03T22:26:29.294Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "aa2fe865-ee18-473e-9d3c-b3876f86befa",
+        "number": 75225,
+        "created_at": "2023-08-03T19:59:34.703Z",
+        "updated_at": "2023-08-03T17:44:25.438Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9f99b245-63d2-431f-8448-0df5b975d742",
+        "number": 82767,
+        "created_at": "2023-08-04T01:53:55.044Z",
+        "updated_at": "2023-08-04T03:11:10.417Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ad7275b6-88a8-4778-8dac-081a93f427f9",
+        "number": 22580,
+        "created_at": "2023-08-03T09:47:41.679Z",
+        "updated_at": "2023-08-03T20:01:15.363Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1400d304-23f6-4f7b-8e52-4a273ed8f648",
+        "number": 1777,
+        "created_at": "2023-08-03T19:13:27.015Z",
+        "updated_at": "2023-08-03T19:06:09.993Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2f18652c-9058-4aef-b68d-dd2b7bdd7f48",
+        "date": "2023-08-03T05:30:52.714Z",
+        "time": "2023-08-03T12:36:39.973Z",
+        "created_at": "2023-08-03T23:23:33.021Z",
+        "updated_at": "2023-08-03T22:17:51.675Z",
+        "table_id": "1400d304-23f6-4f7b-8e52-4a273ed8f648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a03c7d6f-0524-4689-933d-33b971d14ee3",
+        "date": "2023-08-03T17:40:14.900Z",
+        "time": "2023-08-03T08:48:29.931Z",
+        "created_at": "2023-08-03T20:36:36.094Z",
+        "updated_at": "2023-08-03T05:34:46.656Z",
+        "table_id": "c752b887-6d3e-4a72-8bd2-c7af7f825014",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eade302-e613-40dd-99ff-ac84117ea6fd",
+        "date": "2023-08-04T01:32:48.147Z",
+        "time": "2023-08-03T06:02:05.939Z",
+        "created_at": "2023-08-04T02:27:24.476Z",
+        "updated_at": "2023-08-03T18:56:26.718Z",
+        "table_id": "c752b887-6d3e-4a72-8bd2-c7af7f825014",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e6e82eb-9827-4995-86f7-bfbdac9bba72",
+        "date": "2023-08-03T20:27:15.134Z",
+        "time": "2023-08-03T21:55:54.265Z",
+        "created_at": "2023-08-03T08:53:02.848Z",
+        "updated_at": "2023-08-03T20:55:04.183Z",
+        "table_id": "aa2fe865-ee18-473e-9d3c-b3876f86befa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e427ba1e-dde3-40fc-8697-5eea271c53ee",
+        "date": "2023-08-04T04:07:08.818Z",
+        "time": "2023-08-03T17:41:07.075Z",
+        "created_at": "2023-08-03T20:37:36.750Z",
+        "updated_at": "2023-08-03T20:51:03.341Z",
+        "table_id": "aa2fe865-ee18-473e-9d3c-b3876f86befa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "ec80e29c-5e5a-438b-904b-f034b596ba12",
+        "name": "Grilled Salmon",
+        "price": 87912,
+        "created_at": "2023-08-04T04:11:47.820Z",
+        "updated_at": "2023-08-03T13:07:56.687Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "29a883cf-997c-4401-b255-1f44b73b655a",
+        "name": "Margherita Pizza",
+        "price": 45201,
+        "created_at": "2023-08-03T19:12:50.078Z",
+        "updated_at": "2023-08-03T11:40:02.997Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5c4cdd63-c483-46f5-a93d-660ec4ce0c52",
+        "name": "Chicken Alfredo Pasta",
+        "price": 94234,
+        "created_at": "2023-08-04T02:26:13.724Z",
+        "updated_at": "2023-08-03T18:50:26.800Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d2293303-bf52-4838-991b-06f0f1c59d92",
+        "name": "Beef Burger",
+        "price": 2251,
+        "created_at": "2023-08-03T14:26:53.212Z",
+        "updated_at": "2023-08-04T00:01:57.235Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5a4b78e0-1fc3-4613-96c1-b25fb3ebbc82",
+        "name": "Vegetable Stir-Fry",
+        "price": 20315,
+        "created_at": "2023-08-04T00:03:00.818Z",
+        "updated_at": "2023-08-04T04:36:26.897Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "938a2d1b-481b-47ac-b9dd-68e56853f9d8",
+        "created_at": "2023-08-03T17:29:40.830Z",
+        "updated_at": "2023-08-03T18:25:52.335Z",
+        "vegetables": "Carrots",
+        "total_amount": "$10.99",
+        "date": "2023-08-03T18:16:10.654Z"
+      },
+      {
+        "id": "82e4c56d-8795-4b9e-8c91-82fda760a431",
+        "created_at": "2023-08-03T12:40:31.383Z",
+        "updated_at": "2023-08-03T12:14:45.182Z",
+        "vegetables": "Broccoli",
+        "total_amount": "$15.50",
+        "date": "2023-08-03T06:42:40.863Z"
+      },
+      {
+        "id": "66cbef76-be35-449c-adf8-beb244673d59",
+        "created_at": "2023-08-03T17:35:51.457Z",
+        "updated_at": "2023-08-03T07:31:05.805Z",
+        "vegetables": "Spinach",
+        "total_amount": "$8.75",
+        "date": "2023-08-03T21:31:27.461Z"
+      },
+      {
+        "id": "798f0f4f-2fca-4d0b-a7de-7c2330301b5f",
+        "created_at": "2023-08-03T05:05:46.770Z",
+        "updated_at": "2023-08-03T15:35:33.342Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "$12.25",
+        "date": "2023-08-04T02:41:26.022Z"
+      },
+      {
+        "id": "b711b0cc-9b93-4c9e-8325-39e826e0920d",
+        "created_at": "2023-08-03T15:35:53.554Z",
+        "updated_at": "2023-08-04T03:18:52.094Z",
+        "vegetables": "Zucchini",
+        "total_amount": "$9.99",
+        "date": "2023-08-03T14:42:30.773Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "b8bad9b9-71d2-4d31-a173-af8788f54a41",
+        "number": 8390,
+        "created_at": "2023-08-03T17:31:21.178Z",
+        "updated_at": "2023-08-04T02:29:57.838Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d5e278d1-b756-40cd-b36d-b15947fa8a34",
+        "number": 17576,
+        "created_at": "2023-08-03T12:43:25.596Z",
+        "updated_at": "2023-08-04T02:52:59.431Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f8dd1619-e5af-4aa2-b8b7-e809404d5fd5",
+        "number": 95790,
+        "created_at": "2023-08-04T00:04:29.022Z",
+        "updated_at": "2023-08-03T10:56:21.072Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cba9354e-e65b-474f-b1ba-70e81da731fa",
+        "number": 10973,
+        "created_at": "2023-08-04T00:24:12.496Z",
+        "updated_at": "2023-08-04T00:07:06.528Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "90adc6f8-7595-4f32-893f-89dd4e233acd",
+        "number": 9094,
+        "created_at": "2023-08-03T12:14:39.641Z",
+        "updated_at": "2023-08-03T15:38:23.130Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2d18cf00-632a-48c0-be7a-32273e432002",
+        "date": "2023-08-04T02:31:44.476Z",
+        "time": "2023-08-04T03:52:20.393Z",
+        "created_at": "2023-08-03T23:21:44.394Z",
+        "updated_at": "2023-08-03T11:39:01.709Z",
+        "table_id": "b8bad9b9-71d2-4d31-a173-af8788f54a41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbffba51-ec1c-4212-a483-786062ea72cb",
+        "date": "2023-08-04T00:57:45.376Z",
+        "time": "2023-08-03T21:52:53.815Z",
+        "created_at": "2023-08-03T12:44:25.913Z",
+        "updated_at": "2023-08-03T20:13:29.356Z",
+        "table_id": "cba9354e-e65b-474f-b1ba-70e81da731fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e69c80a-334d-4c6d-98ef-bdbe789e9562",
+        "date": "2023-08-04T01:27:29.614Z",
+        "time": "2023-08-03T20:01:37.005Z",
+        "created_at": "2023-08-04T02:17:05.943Z",
+        "updated_at": "2023-08-03T16:26:11.216Z",
+        "table_id": "90adc6f8-7595-4f32-893f-89dd4e233acd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a6ecd8-465e-478f-b51e-a9dc3c330f91",
+        "date": "2023-08-03T10:21:06.925Z",
+        "time": "2023-08-03T09:37:17.447Z",
+        "created_at": "2023-08-04T00:45:15.088Z",
+        "updated_at": "2023-08-03T07:36:12.122Z",
+        "table_id": "d5e278d1-b756-40cd-b36d-b15947fa8a34",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd58b61a-7799-491b-8da5-008202d327eb",
+        "date": "2023-08-03T17:38:12.810Z",
+        "time": "2023-08-03T22:16:33.944Z",
+        "created_at": "2023-08-03T07:47:20.970Z",
+        "updated_at": "2023-08-03T07:09:50.904Z",
+        "table_id": "cba9354e-e65b-474f-b1ba-70e81da731fa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "8ae8a5a3-0ad2-4995-92b5-b8c743daacf5",
+        "name": "Appetizers",
+        "price": 41501,
+        "created_at": "2023-08-04T03:43:21.486Z",
+        "updated_at": "2023-08-04T03:35:43.711Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3d865a79-8690-4098-b813-11421d9c8210",
+        "name": "Main Courses",
+        "price": 37790,
+        "created_at": "2023-08-04T00:26:57.762Z",
+        "updated_at": "2023-08-03T19:15:40.126Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9c32f45e-4b61-4e4c-80ce-5ae23d8ca6db",
+        "name": "Desserts",
+        "price": 12098,
+        "created_at": "2023-08-04T03:33:17.802Z",
+        "updated_at": "2023-08-03T16:54:58.896Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a9c7f527-26e8-4dca-b352-e4245fd2dc33",
+        "name": "Beverages",
+        "price": 44726,
+        "created_at": "2023-08-03T17:19:52.923Z",
+        "updated_at": "2023-08-03T09:23:14.324Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "306e9cfa-a286-422e-87f1-ccd532ab1993",
+        "name": "Specials",
+        "price": 61847,
+        "created_at": "2023-08-03T09:01:00.939Z",
+        "updated_at": "2023-08-03T06:10:02.517Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "b2805ccb-0e8d-488c-9d10-b529de7bd3e5",
+        "created_at": "2023-08-03T12:15:51.184Z",
+        "updated_at": "2023-08-03T19:48:12.328Z",
+        "vegetables": "Carrots",
+        "total_amount": "10 kg",
+        "date": "2023-08-03T08:53:18.174Z"
+      },
+      {
+        "id": "5d83bf18-6d7b-44f2-9652-6817d96224bb",
+        "created_at": "2023-08-03T21:19:24.636Z",
+        "updated_at": "2023-08-03T15:49:14.747Z",
+        "vegetables": "Broccoli",
+        "total_amount": "5 kg",
+        "date": "2023-08-03T19:33:32.945Z"
+      },
+      {
+        "id": "98ade6e9-82bf-4326-bb4d-af9139b24123",
+        "created_at": "2023-08-03T14:28:54.516Z",
+        "updated_at": "2023-08-03T13:20:17.850Z",
+        "vegetables": "Spinach",
+        "total_amount": "8 kg",
+        "date": "2023-08-04T04:08:20.948Z"
+      },
+      {
+        "id": "144242db-2965-4194-aaee-b3d6e49e121b",
+        "created_at": "2023-08-03T23:55:39.953Z",
+        "updated_at": "2023-08-03T12:24:04.820Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "12 kg",
+        "date": "2023-08-03T08:43:04.398Z"
+      },
+      {
+        "id": "7251ce24-6b8d-49b5-b849-0be86ea05c39",
+        "created_at": "2023-08-03T10:32:12.898Z",
+        "updated_at": "2023-08-03T10:48:50.856Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "6 kg",
+        "date": "2023-08-03T21:28:34.713Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "da7e6ff2-bfad-446f-8083-af7d0e7344c2",
+        "number": 15393,
+        "created_at": "2023-08-03T14:16:01.957Z",
+        "updated_at": "2023-08-04T00:30:02.322Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "08d575fb-a414-4a10-b77d-76bff27ca769",
+        "number": 1256,
+        "created_at": "2023-08-03T17:09:33.485Z",
+        "updated_at": "2023-08-03T18:42:30.102Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "46fdb20b-8f7b-4785-9e3d-c76207eeeb1a",
+        "number": 112,
+        "created_at": "2023-08-04T01:12:20.124Z",
+        "updated_at": "2023-08-03T08:05:50.699Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "77a859b4-5779-45f6-b5d7-416a4468beeb",
+        "number": 46987,
+        "created_at": "2023-08-04T04:31:00.717Z",
+        "updated_at": "2023-08-03T19:53:09.923Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b8f96a50-9d4d-484f-b892-3c3052db01c4",
+        "number": 99322,
+        "created_at": "2023-08-03T16:18:38.651Z",
+        "updated_at": "2023-08-03T16:46:50.998Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "94a98aa1-d61e-486d-8758-8a1c0c904396",
+        "date": "2023-08-04T01:23:04.338Z",
+        "time": "2023-08-03T22:20:44.266Z",
+        "created_at": "2023-08-03T11:36:39.777Z",
+        "updated_at": "2023-08-03T17:14:42.328Z",
+        "table_id": "08d575fb-a414-4a10-b77d-76bff27ca769",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b67ec9a8-903f-4dbe-a827-0ae066073d90",
+        "date": "2023-08-03T18:53:56.516Z",
+        "time": "2023-08-04T04:35:31.141Z",
+        "created_at": "2023-08-03T14:28:23.457Z",
+        "updated_at": "2023-08-03T13:03:46.351Z",
+        "table_id": "08d575fb-a414-4a10-b77d-76bff27ca769",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa8d76b5-a317-4a7e-8804-09d90da13cbc",
+        "date": "2023-08-03T09:37:54.529Z",
+        "time": "2023-08-03T16:24:52.745Z",
+        "created_at": "2023-08-03T05:56:37.247Z",
+        "updated_at": "2023-08-03T13:41:07.215Z",
+        "table_id": "77a859b4-5779-45f6-b5d7-416a4468beeb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f15ac91-0714-429b-a13f-2feb8fd3f9d0",
+        "date": "2023-08-03T16:58:52.540Z",
+        "time": "2023-08-03T16:22:18.163Z",
+        "created_at": "2023-08-03T05:27:11.716Z",
+        "updated_at": "2023-08-03T18:05:58.879Z",
+        "table_id": "b8f96a50-9d4d-484f-b892-3c3052db01c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0489112-a334-49a5-8b93-65d718519f8f",
+        "date": "2023-08-03T12:09:09.880Z",
+        "time": "2023-08-03T15:33:14.428Z",
+        "created_at": "2023-08-03T13:00:31.232Z",
+        "updated_at": "2023-08-03T13:07:41.398Z",
+        "table_id": "46fdb20b-8f7b-4785-9e3d-c76207eeeb1a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "2735ce86-9fd9-4b97-a10a-d0429c8c5084",
+        "name": "Appetizers",
+        "price": 58874,
+        "created_at": "2023-08-04T02:03:41.823Z",
+        "updated_at": "2023-08-03T20:23:47.522Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8dcad748-cf20-4f28-a2ad-255533cc5d63",
+        "name": "Main Courses",
+        "price": 17648,
+        "created_at": "2023-08-03T07:59:01.091Z",
+        "updated_at": "2023-08-04T02:32:44.293Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1081dd3e-a00f-4a6b-939a-731947a8f4e0",
+        "name": "Desserts",
+        "price": 57126,
+        "created_at": "2023-08-03T11:40:16.117Z",
+        "updated_at": "2023-08-03T05:33:25.148Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "85a5392f-cc6b-432f-8dbb-1eedafcabbea",
+        "name": "Beverages",
+        "price": 23565,
+        "created_at": "2023-08-03T21:26:45.892Z",
+        "updated_at": "2023-08-03T11:45:26.262Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "57f97355-6129-4987-8d4d-f28484f8b637",
+        "name": "Specials",
+        "price": 7646,
+        "created_at": "2023-08-03T22:57:34.520Z",
+        "updated_at": "2023-08-03T19:27:53.212Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "9d11cfa2-f19c-4336-87ff-3dbb201d0c9b",
+        "created_at": "2023-08-03T11:54:55.654Z",
+        "updated_at": "2023-08-03T21:31:19.601Z",
+        "vegetables": "Carrots",
+        "total_amount": "$10.99",
+        "date": "2023-08-04T03:51:08.783Z"
+      },
+      {
+        "id": "6fc30f74-b3c4-43c3-b1fb-72a0b4fd3d04",
+        "created_at": "2023-08-03T14:11:56.782Z",
+        "updated_at": "2023-08-03T09:59:05.744Z",
+        "vegetables": "Broccoli",
+        "total_amount": "$15.50",
+        "date": "2023-08-03T13:02:39.051Z"
+      },
+      {
+        "id": "ba407b94-b8c8-4d85-9bea-7c9b99187b96",
+        "created_at": "2023-08-04T00:31:09.067Z",
+        "updated_at": "2023-08-04T01:07:23.964Z",
+        "vegetables": "Spinach",
+        "total_amount": "$8.75",
+        "date": "2023-08-03T05:12:48.630Z"
+      },
+      {
+        "id": "7b446c12-e6e8-4228-9e9c-bfb1f8563a07",
+        "created_at": "2023-08-03T18:51:06.070Z",
+        "updated_at": "2023-08-04T00:04:50.510Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "$12.25",
+        "date": "2023-08-04T03:55:29.567Z"
+      },
+      {
+        "id": "2db4caa5-1d85-46b3-aad8-533f7405c2d5",
+        "created_at": "2023-08-04T01:58:48.644Z",
+        "updated_at": "2023-08-03T12:14:54.977Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "$9.99",
+        "date": "2023-08-03T11:25:26.620Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "202a7264-990b-4085-8a44-4ae87a634772",
+        "number": 46398,
+        "created_at": "2023-08-03T07:28:49.222Z",
+        "updated_at": "2023-08-03T17:19:53.896Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d3dfe275-54e5-4c57-8e73-12a718b595e4",
+        "number": 86932,
+        "created_at": "2023-08-04T01:56:03.538Z",
+        "updated_at": "2023-08-03T10:41:43.962Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c4be0bdb-dd35-45f2-9d42-69ccefa248ed",
+        "number": 96983,
+        "created_at": "2023-08-03T21:38:19.827Z",
+        "updated_at": "2023-08-03T11:26:39.081Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4e6c5155-663d-4ff9-aab1-041dabcaa729",
+        "number": 4057,
+        "created_at": "2023-08-04T03:20:22.571Z",
+        "updated_at": "2023-08-03T22:33:46.372Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3c020931-ea53-48a5-bd2f-59da5906f8c3",
+        "number": 44343,
+        "created_at": "2023-08-03T21:17:19.810Z",
+        "updated_at": "2023-08-03T17:15:34.881Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "909ec9c2-8b2b-4f3c-8475-1fa8a071a086",
+        "date": "2023-08-04T01:54:20.475Z",
+        "time": "2023-08-03T09:02:34.479Z",
+        "created_at": "2023-08-03T14:09:16.386Z",
+        "updated_at": "2023-08-03T17:29:35.297Z",
+        "table_id": "202a7264-990b-4085-8a44-4ae87a634772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f3384a7-d400-4ea4-9d19-f0af784ed4a0",
+        "date": "2023-08-04T02:55:15.836Z",
+        "time": "2023-08-04T01:06:19.786Z",
+        "created_at": "2023-08-03T18:54:21.794Z",
+        "updated_at": "2023-08-03T18:51:36.086Z",
+        "table_id": "3c020931-ea53-48a5-bd2f-59da5906f8c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5162a5ca-6370-4a40-a306-f1d4f0d6224f",
+        "date": "2023-08-03T12:34:43.342Z",
+        "time": "2023-08-03T07:35:37.741Z",
+        "created_at": "2023-08-03T16:20:00.471Z",
+        "updated_at": "2023-08-03T08:37:36.195Z",
+        "table_id": "d3dfe275-54e5-4c57-8e73-12a718b595e4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a20c89-08ad-47f6-bdce-83edaa71c826",
+        "date": "2023-08-03T20:40:42.907Z",
+        "time": "2023-08-03T18:01:46.694Z",
+        "created_at": "2023-08-03T10:26:04.935Z",
+        "updated_at": "2023-08-03T15:39:25.278Z",
+        "table_id": "4e6c5155-663d-4ff9-aab1-041dabcaa729",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8249900c-02d4-4278-a3c2-b22c724944b9",
+        "date": "2023-08-03T15:36:10.169Z",
+        "time": "2023-08-03T22:07:04.949Z",
+        "created_at": "2023-08-04T04:59:16.097Z",
+        "updated_at": "2023-08-03T11:37:03.769Z",
+        "table_id": "4e6c5155-663d-4ff9-aab1-041dabcaa729",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "cf816770-cb60-40ef-ad6e-d60761427347",
+        "name": "Appetizers",
+        "price": 45010,
+        "created_at": "2023-08-03T20:56:50.866Z",
+        "updated_at": "2023-08-03T05:41:29.844Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "031a86b9-09cf-45b1-9c24-3244342a0430",
+        "name": "Main Courses",
+        "price": 65864,
+        "created_at": "2023-08-04T01:05:28.962Z",
+        "updated_at": "2023-08-03T06:05:17.725Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bbefb2ee-6659-4d0a-a2b8-946527669501",
+        "name": "Desserts",
+        "price": 91622,
+        "created_at": "2023-08-03T20:38:35.003Z",
+        "updated_at": "2023-08-04T04:28:41.318Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1160ff6c-c6b0-4090-abbf-686a75a6ddfa",
+        "name": "Beverages",
+        "price": 11111,
+        "created_at": "2023-08-04T02:02:18.495Z",
+        "updated_at": "2023-08-03T21:44:41.977Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b5653f8e-de05-46fc-8d97-925d42e47377",
+        "name": "Specials",
+        "price": 68134,
+        "created_at": "2023-08-03T20:50:40.666Z",
+        "updated_at": "2023-08-03T22:46:06.206Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "dc080b9d-5bbc-4d46-831e-c646cd7b6dfd",
+        "created_at": "2023-08-03T18:33:10.998Z",
+        "updated_at": "2023-08-03T23:00:23.556Z",
+        "vegetables": "Carrots",
+        "total_amount": "10 kg",
+        "date": "2023-08-03T05:31:23.828Z"
+      },
+      {
+        "id": "c3cbd6c5-c65e-4a5f-9fa8-d5e56555bc31",
+        "created_at": "2023-08-03T20:09:39.437Z",
+        "updated_at": "2023-08-03T05:14:32.825Z",
+        "vegetables": "Broccoli",
+        "total_amount": "5 kg",
+        "date": "2023-08-04T04:49:13.889Z"
+      },
+      {
+        "id": "45496467-8fa2-4283-a135-df636523f33a",
+        "created_at": "2023-08-03T08:41:37.549Z",
+        "updated_at": "2023-08-03T08:09:11.189Z",
+        "vegetables": "Spinach",
+        "total_amount": "8 kg",
+        "date": "2023-08-03T20:20:58.493Z"
+      },
+      {
+        "id": "126b10f4-0bf3-42f5-b630-49e656c8b7e8",
+        "created_at": "2023-08-03T10:28:57.982Z",
+        "updated_at": "2023-08-03T07:50:07.502Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "12 kg",
+        "date": "2023-08-04T03:42:58.557Z"
+      },
+      {
+        "id": "f9a6f6a0-02a8-4ace-92af-e82d19f4e4a0",
+        "created_at": "2023-08-03T20:59:45.753Z",
+        "updated_at": "2023-08-03T12:37:53.818Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "6 kg",
+        "date": "2023-08-04T02:42:55.947Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "c54c9710-24a4-43b7-a360-0fd302a693c9",
+        "number": 54599,
+        "created_at": "2023-08-03T05:53:10.333Z",
+        "updated_at": "2023-08-04T03:08:22.192Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5d575302-d704-4c45-ba33-9a61d4fb53c1",
+        "number": 45386,
+        "created_at": "2023-08-03T22:16:12.204Z",
+        "updated_at": "2023-08-03T12:53:50.964Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "733c810d-6572-40ee-ad10-75ad9da0bdf1",
+        "number": 53536,
+        "created_at": "2023-08-04T03:51:26.195Z",
+        "updated_at": "2023-08-03T15:05:08.370Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "99e3657a-cca4-48cf-8fe6-8ee8a420456e",
+        "number": 63656,
+        "created_at": "2023-08-03T19:30:29.623Z",
+        "updated_at": "2023-08-03T08:52:06.385Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ffcece44-b58d-404e-a8ba-0ba779bab6b6",
+        "number": 54014,
+        "created_at": "2023-08-03T14:54:45.300Z",
+        "updated_at": "2023-08-03T16:24:20.340Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7f5081b7-3522-4883-8162-aa11bd74991d",
+        "date": "2023-08-04T01:29:15.647Z",
+        "time": "2023-08-04T04:24:55.101Z",
+        "created_at": "2023-08-04T00:00:04.629Z",
+        "updated_at": "2023-08-03T17:23:24.305Z",
+        "table_id": "ffcece44-b58d-404e-a8ba-0ba779bab6b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a45a5ec-777b-41cc-b753-434db118b2d3",
+        "date": "2023-08-04T04:50:48.295Z",
+        "time": "2023-08-03T21:10:15.661Z",
+        "created_at": "2023-08-03T22:55:44.974Z",
+        "updated_at": "2023-08-03T06:09:52.761Z",
+        "table_id": "733c810d-6572-40ee-ad10-75ad9da0bdf1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a50287da-c7ca-4c1b-a094-1733abec4473",
+        "date": "2023-08-04T03:00:54.749Z",
+        "time": "2023-08-03T14:08:28.096Z",
+        "created_at": "2023-08-03T15:39:42.170Z",
+        "updated_at": "2023-08-03T08:43:57.712Z",
+        "table_id": "99e3657a-cca4-48cf-8fe6-8ee8a420456e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4d0653e-6e5a-4a52-8301-ccdae8e1fd3b",
+        "date": "2023-08-03T07:58:19.003Z",
+        "time": "2023-08-04T02:07:58.998Z",
+        "created_at": "2023-08-03T16:20:56.254Z",
+        "updated_at": "2023-08-03T05:30:13.420Z",
+        "table_id": "ffcece44-b58d-404e-a8ba-0ba779bab6b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78fe2958-dab7-4da3-b5c9-8c0a15abad29",
+        "date": "2023-08-04T04:51:23.207Z",
+        "time": "2023-08-03T23:00:39.900Z",
+        "created_at": "2023-08-03T22:14:15.952Z",
+        "updated_at": "2023-08-03T08:39:48.799Z",
+        "table_id": "5d575302-d704-4c45-ba33-9a61d4fb53c1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "f9c24e3d-2bc9-4003-b55b-df8e122c5d4c",
+        "name": "Appetizers",
+        "price": 26637,
+        "created_at": "2023-08-03T18:34:08.267Z",
+        "updated_at": "2023-08-04T02:01:12.444Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "68938611-692f-4cda-ab08-09d3739e287d",
+        "name": "Main Courses",
+        "price": 3904,
+        "created_at": "2023-08-04T04:35:52.187Z",
+        "updated_at": "2023-08-03T10:56:55.149Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "67fd61db-763c-4370-952b-ac011945cb8e",
+        "name": "Desserts",
+        "price": 63587,
+        "created_at": "2023-08-03T22:23:09.029Z",
+        "updated_at": "2023-08-03T20:26:31.719Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d0e97ce8-a092-4b1b-9cc3-a895910ff41f",
+        "name": "Beverages",
+        "price": 86254,
+        "created_at": "2023-08-03T06:05:40.038Z",
+        "updated_at": "2023-08-03T07:13:36.408Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "aad9a168-81e0-436f-b878-3bf3cb19b8c0",
+        "name": "Specials",
+        "price": 22153,
+        "created_at": "2023-08-03T09:47:44.553Z",
+        "updated_at": "2023-08-03T18:51:42.303Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "19b35747-bac1-43db-9a7d-ac63f5fd9b1d",
+        "created_at": "2023-08-03T11:37:13.373Z",
+        "updated_at": "2023-08-03T21:33:47.972Z",
+        "vegetables": "Carrots",
+        "total_amount": "$10.99",
+        "date": "2023-08-03T21:19:42.284Z"
+      },
+      {
+        "id": "f1ea8207-6c2b-451e-90c1-3b8f35074a32",
+        "created_at": "2023-08-04T03:54:28.282Z",
+        "updated_at": "2023-08-03T18:23:32.819Z",
+        "vegetables": "Broccoli",
+        "total_amount": "$15.50",
+        "date": "2023-08-03T08:04:15.673Z"
+      },
+      {
+        "id": "b0592f24-4ee1-4b2e-97fc-11ecd37ed5fb",
+        "created_at": "2023-08-04T03:00:45.285Z",
+        "updated_at": "2023-08-03T15:02:14.214Z",
+        "vegetables": "Spinach",
+        "total_amount": "$8.75",
+        "date": "2023-08-03T16:45:12.457Z"
+      },
+      {
+        "id": "4898b065-6978-42f9-b36f-e332fb0aedbf",
+        "created_at": "2023-08-04T00:36:05.022Z",
+        "updated_at": "2023-08-03T05:53:43.627Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "$12.25",
+        "date": "2023-08-03T23:35:39.129Z"
+      },
+      {
+        "id": "dff01573-5742-4b81-adcf-747552a4c2bb",
+        "created_at": "2023-08-03T18:59:51.456Z",
+        "updated_at": "2023-08-03T16:56:24.928Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "$9.99",
+        "date": "2023-08-03T13:08:39.702Z"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "c764cb69-079d-4626-865f-6d3b4ef2e714",
+        "number": 18877,
+        "created_at": "2023-08-03T13:16:35.148Z",
+        "updated_at": "2023-08-03T07:21:57.788Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "83b5fa12-261e-437f-b92e-3e09cbf1e547",
+        "number": 88113,
+        "created_at": "2023-08-03T11:24:03.607Z",
+        "updated_at": "2023-08-04T02:44:53.871Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8ce1ef91-29a2-41e7-9d03-41d980e8ad99",
+        "number": 32804,
+        "created_at": "2023-08-03T18:06:39.337Z",
+        "updated_at": "2023-08-03T13:12:40.079Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cb074504-e9d7-40f5-8c93-07df47ba0989",
+        "number": 35873,
+        "created_at": "2023-08-03T08:31:32.553Z",
+        "updated_at": "2023-08-03T12:47:41.448Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "45fd5756-7c82-44bd-bd3b-8e3d9b73bd6a",
+        "number": 50417,
+        "created_at": "2023-08-03T06:11:22.149Z",
+        "updated_at": "2023-08-03T16:52:10.247Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "5bccea2f-1904-4683-9790-537f199d7548",
+        "date": "2023-08-04T02:35:53.432Z",
+        "time": "2023-08-03T23:18:35.136Z",
+        "created_at": "2023-08-04T03:50:07.662Z",
+        "updated_at": "2023-08-03T22:09:34.284Z",
+        "table_id": "83b5fa12-261e-437f-b92e-3e09cbf1e547",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a843fe47-a8f0-4fd2-96dc-c865860eb57c",
+        "date": "2023-08-04T03:48:59.198Z",
+        "time": "2023-08-03T17:21:33.148Z",
+        "created_at": "2023-08-03T18:11:08.637Z",
+        "updated_at": "2023-08-03T06:20:18.702Z",
+        "table_id": "8ce1ef91-29a2-41e7-9d03-41d980e8ad99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c88b4494-5277-4adf-bfa8-cf525f032f8b",
+        "date": "2023-08-04T00:39:41.992Z",
+        "time": "2023-08-04T03:34:20.612Z",
+        "created_at": "2023-08-04T00:02:30.519Z",
+        "updated_at": "2023-08-03T07:19:32.347Z",
+        "table_id": "cb074504-e9d7-40f5-8c93-07df47ba0989",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7289f637-40b6-49c9-8012-abff4e461205",
+        "date": "2023-08-04T01:22:40.767Z",
+        "time": "2023-08-03T05:15:55.245Z",
+        "created_at": "2023-08-04T03:40:17.562Z",
+        "updated_at": "2023-08-03T08:24:00.440Z",
+        "table_id": "c764cb69-079d-4626-865f-6d3b4ef2e714",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22b51d4d-c5fb-48ea-8cd8-1e6455dae2ed",
+        "date": "2023-08-03T06:09:15.564Z",
+        "time": "2023-08-03T10:23:25.300Z",
+        "created_at": "2023-08-03T07:15:57.975Z",
+        "updated_at": "2023-08-03T22:47:24.644Z",
+        "table_id": "45fd5756-7c82-44bd-bd3b-8e3d9b73bd6a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "fe240662-17f0-499b-9bdd-eae7828e9d8e",
+        "name": "Appetizers",
+        "price": 53826,
+        "created_at": "2023-08-04T03:37:09.820Z",
+        "updated_at": "2023-08-03T14:27:45.409Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "22f8af7a-64e8-47d1-b421-73480dc83507",
+        "name": "Main Courses",
+        "price": 78512,
+        "created_at": "2023-08-03T13:30:27.649Z",
+        "updated_at": "2023-08-03T22:37:18.941Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "549b4e8f-1f5f-4f38-a0a0-e0240816f94b",
+        "name": "Desserts",
+        "price": 71477,
+        "created_at": "2023-08-03T13:06:36.590Z",
+        "updated_at": "2023-08-03T07:35:40.105Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "033461cf-b46d-40d2-bc56-91822ec75eb3",
+        "name": "Beverages",
+        "price": 18703,
+        "created_at": "2023-08-03T08:07:05.352Z",
+        "updated_at": "2023-08-04T04:45:28.337Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c3047fd2-1deb-4df5-b4b3-fd5d4e070f59",
+        "name": "Specials",
+        "price": 33080,
+        "created_at": "2023-08-04T01:26:35.255Z",
+        "updated_at": "2023-08-03T10:49:33.147Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "grocerie": [
+      {
+        "id": "b4d9c9f9-9f78-4be1-b598-bc01fa2befa2",
+        "created_at": "2023-08-03T22:15:43.523Z",
+        "updated_at": "2023-08-03T06:04:05.151Z",
+        "vegetables": "Carrots",
+        "total_amount": "$10.99",
+        "date": "2023-08-04T04:35:27.149Z"
+      },
+      {
+        "id": "5b1fde9d-35b4-4d09-a3be-6a2896919fd5",
+        "created_at": "2023-08-03T15:42:52.025Z",
+        "updated_at": "2023-08-04T03:36:28.853Z",
+        "vegetables": "Broccoli",
+        "total_amount": "$15.50",
+        "date": "2023-08-04T03:59:03.600Z"
+      },
+      {
+        "id": "6347ef65-2186-4ca0-a9d2-02d6274b67c6",
+        "created_at": "2023-08-04T03:21:30.888Z",
+        "updated_at": "2023-08-03T07:30:41.544Z",
+        "vegetables": "Spinach",
+        "total_amount": "$8.75",
+        "date": "2023-08-03T21:02:57.193Z"
+      },
+      {
+        "id": "d018ebf4-5c7b-40b0-b87d-709926d5b4b5",
+        "created_at": "2023-08-04T04:00:46.419Z",
+        "updated_at": "2023-08-03T06:12:57.027Z",
+        "vegetables": "Bell Peppers",
+        "total_amount": "$12.25",
+        "date": "2023-08-03T11:20:32.270Z"
+      },
+      {
+        "id": "33319eec-699a-43c8-bd1d-1581c58bc6d5",
+        "created_at": "2023-08-04T00:10:42.708Z",
+        "updated_at": "2023-08-03T14:58:32.684Z",
+        "vegetables": "Cauliflower",
+        "total_amount": "$9.99",
+        "date": "2023-08-03T07:41:51.330Z"
+      }
+    ]
+  }
+]
